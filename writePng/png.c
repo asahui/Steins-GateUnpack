@@ -119,8 +119,8 @@ int write_png_file(const char *file_name , pic_data *graph)
 
 int main(int argc, const char *argv[])
 {
-    if (argc != 2) {
-        printf("usage: png filein fileout");
+    if (argc != 3) {
+        printf("usage: png BG.CPK.out270 270.png\n");
         return -1;
     }
     pic_data pic;

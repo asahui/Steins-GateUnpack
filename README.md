@@ -6,7 +6,7 @@ png tools for output CG files from unpack files
 
 <br />
 
-build
+Build
 -----
 1. build cpk_unpack
 > cd cpk_unpack
@@ -18,9 +18,13 @@ build
 > cd writePng
 > gcc writePng -lpng -o png
 
+Usage
+-----
 3. Unpack files and generate pictures
+Unpack CPK files with cpk_unpack, output files will be BG.CPK.outXXX
+generate png files with png
 > ./cpk_unpack [Steins;Gate files path]/BG.CPK
-files will be BG.CPK.outXXX
-
 > ./png BG.CPK.270 270.png
 
+Or you can use a bat or shell script to generate all CG
+> ./writePng.sh
