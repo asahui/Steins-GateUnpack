@@ -20,11 +20,11 @@ Build
 
 Usage
 -----
-3. Unpack files and generate pictures
+1. Unpack files and generate pictures
 Unpack CPK files with cpk_unpack, output files will be BG.CPK.outXXX
 generate png files with png
 > ./cpk_unpack [Steins;Gate files path]/BG.CPK
 > ./png BG.CPK.270 270.png
 
-Or you can use a bat or shell script to generate all CG
+2. Or you can use a bat or shell script to generate all CG
 > ./writePng.sh
